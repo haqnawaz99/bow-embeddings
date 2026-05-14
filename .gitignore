@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+*.swp
+.idea/
+
+# Local agent / IDE metadata (do not publish)
+.claude/
+
+# Environment secrets (never commit keys)
+.env
+.env.*
+
+# Large generated logs (if any)
+*.log

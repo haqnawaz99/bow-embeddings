@@ -1,0 +1,13 @@
+pandas
+numpy
+nltk
+spacy
+scikit-learn
+gensim
+matplotlib
+seaborn
+sentence-transformers
+faiss-cpu
+jupyter
+notebook
+ipykernel
