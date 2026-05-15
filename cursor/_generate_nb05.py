@@ -727,7 +727,7 @@ Notebook 6  →  Sentence embeddings (whole-text vectors; e.g. SBERT path in thi
 - [ ] I can explain why **verse mean pooling** behaves differently when unknown tokens appear in a verse.  
 - [ ] I can name one case where **subwords mislead**.
 
-When you are ready, open **Notebook 6 — Sentence Embeddings** (or the next notebook in your local track list).
+When you are ready, open **Notebook 6 — Sentence Embeddings and Semantic Search** (`NLP_Workshop_06_…ipynb`).
 
 ---
 """
