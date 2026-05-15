@@ -36,7 +36,7 @@ cells.append(
 ## Where you are in the roadmap
 
 ```text
-NB01  Preprocess + BoW  →  NB02  TF‑IDF  →  NB03  N‑grams  →  NB04  Word2Vec  →  NB05  FastText  →  NB06  Sentence embeddings  →  NB07+  FAISS / RAG
+NB01  Preprocess + BoW  →  NB02  TF‑IDF  →  NB03  N‑grams  →  NB04  Word2Vec  →  NB05  FastText  →  NB06  Sentence embeddings  →  NB07  FAISS  →  NB08  RAG
                                                                                                                     ▲
                                                                                                              YOU ARE HERE
 ```
@@ -557,13 +557,13 @@ cells.append(
 
 | What NB06 improves | What is still weak | What comes next |
 |---|---|---|
-| Whole-string dense similarity | Fast **nearest-neighbor** at millions+ of vectors | **NB07 — FAISS / ANN** |
+| Whole-string dense similarity | Fast **nearest-neighbor** at millions+ of vectors | **NB07 — FAISS and vector search** |
 | Semantic-style ranking | Grounded answers with citations | **NB08 — RAG** (in full series) |
 | Query ↔ verse matching | Index maintenance, updates, filters | **Vector DB** topics |
 
 ```text
 Notebook 6  →  Sentence embeddings (dense semantic retrieval)
-Notebook 7  →  Vector search at scale (FAISS / ANN) — same ideas, bigger corpora
+Notebook 7  →  FAISS and vector search (exact + approximate ANN)
 ```
 
 ---
@@ -576,7 +576,7 @@ Notebook 7  →  Vector search at scale (FAISS / ANN) — same ideas, bigger cor
 - [ ] I can explain one caveat of **PCA** for interpreting embedding clouds.  
 - [ ] I can name one **deployment** concern (latency, disk, GPU) for sentence models.
 
-When you are ready, open **Notebook 7 — Vector Search with FAISS** (or the next notebook in your local track).
+When you are ready, open **Notebook 7 — FAISS and Vector Search** (`NLP_Workshop_07_FAISS_and_Vector_Search.ipynb`).
 
 ---
 """

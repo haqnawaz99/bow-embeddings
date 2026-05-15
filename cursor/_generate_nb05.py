@@ -713,7 +713,7 @@ Notebook 6  →  Sentence embeddings (whole-text vectors; e.g. SBERT path in thi
 |---|---|---|
 | Better rare / typo / OOV behavior at **word** level | Whole-query ↔ whole-verse meaning | **NB06 — sentence embeddings** |
 | Mean-pooled verse retrieval | Learned **sentence encoders**, attention | **NB06+** |
-| PCA geometry shifts | Efficient **nearest-neighbor search** at scale | **NB07 — FAISS** (in full series) |
+| PCA geometry shifts | Efficient **nearest-neighbor search** at scale | **NB07 — FAISS and vector search** |
 | Single translation column | Grounded **generation** + citations | **NB08 — RAG** (in full series) |
 
 ---
