@@ -34,6 +34,12 @@ theme:
 
 nav:
   - Home: index.md
+  - Concepts:
+    - "What is NLP?": concepts/what-is-nlp.md
+    - "Text Preprocessing": concepts/text-preprocessing.md
+    - "Sparse vs Dense": concepts/sparse-vs-dense.md
+    - "What are Embeddings?": concepts/embeddings.md
+    - "What is RAG?": concepts/what-is-rag.md
   - Notebooks:
     - "NB01 — Bag-of-Words": notebooks/nb01.md
     - "NB02 — TF-IDF": notebooks/nb02.md
