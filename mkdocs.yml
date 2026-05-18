@@ -1,10 +1,10 @@
 site_name: NLP Workshop — BoW to Advanced RAG
 site_description: A complete, hands-on NLP workshop series teaching the full arc from classical text methods to modern Retrieval-Augmented Generation.
 site_author: Haq Nawaz
-site_url: https://haqnawaz99.github.io/BOW-to-Embeddings/
+site_url: https://haqnawaz99.github.io/bow-embeddings/
 
-repo_name: haqnawaz99/BOW-to-Embeddings
-repo_url: https://github.com/haqnawaz99/BOW-to-Embeddings
+repo_name: haqnawaz99/bow-embeddings
+repo_url: https://github.com/haqnawaz99/bow-embeddings
 
 theme:
   name: material
