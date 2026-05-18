@@ -33,3 +33,6 @@ Thumbs.db
 
 # FAISS workshop artifacts (NB07)
 faiss_workshop_cache/
+
+# MkDocs build output (auto-deployed via GitHub Actions)
+site/

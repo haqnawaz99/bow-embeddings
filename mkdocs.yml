@@ -1,0 +1,70 @@
+site_name: NLP Workshop — BoW to Advanced RAG
+site_description: A complete, hands-on NLP workshop series teaching the full arc from classical text methods to modern Retrieval-Augmented Generation.
+site_author: Haq Nawaz
+site_url: https://haqnawaz99.github.io/BOW-to-Embeddings/
+
+repo_name: haqnawaz99/BOW-to-Embeddings
+repo_url: https://github.com/haqnawaz99/BOW-to-Embeddings
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+nav:
+  - Home: index.md
+  - Notebooks:
+    - "NB01 — Bag-of-Words": notebooks/nb01.md
+    - "NB02 — TF-IDF": notebooks/nb02.md
+    - "NB03 — N-Grams": notebooks/nb03.md
+    - "NB04 — Word2Vec": notebooks/nb04.md
+    - "NB05 — FastText": notebooks/nb05.md
+    - "NB06 — Sentence Embeddings": notebooks/nb06.md
+    - "NB07 — FAISS": notebooks/nb07.md
+    - "NB08 — RAG": notebooks/nb08.md
+    - "NB09 — Advanced RAG": notebooks/nb09.md
+  - Dataset: dataset.md
+  - Setup: setup.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/haqnawaz99
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/haqnawaz99
